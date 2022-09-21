@@ -2,7 +2,9 @@
 
 Created initial version that works, able to print using current STLs, needs improvement.
 
-First print: https://youtube.com/shorts/suzz1N5mtw4
+Klipper still uses the input-shaping / pressure advance from the original lead screw z-axis setup. I will measure resonances and update the pressure advance once I have more solid corexz mounts.
+
+### First print: https://youtube.com/shorts/suzz1N5mtw4
 
 [![First print](https://img.youtube.com/vi/suzz1N5mtw4/0.jpg)](https://www.youtube.com/watch?v=suzz1N5mtw4)
 
