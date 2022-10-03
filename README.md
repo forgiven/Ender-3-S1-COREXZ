@@ -15,7 +15,7 @@ The parts should be printed in PETG or something equally or more stable (see: ht
 
 
 ### All designed by me using cad.onshape.com
-https://cad.onshape.com/documents/2d724dcc4f7a68835cdef02c/w/3ee8bb17d9ad95283a8c1cf1/e/fb96c81676967ea1a2d87bf8
+https://cad.onshape.com/documents/2d724dcc4f7a68835cdef02c/w/3ee8bb17d9ad95283a8c1cf1/e/ca4d997c7e1208501c988271
 
 ### Stepper mounts orientation
 ![Stepper Mounts](./stl/stepper%20mount%20print%20orientation.png)
