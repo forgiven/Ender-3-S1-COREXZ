@@ -26,6 +26,9 @@ https://cad.onshape.com/documents/2d724dcc4f7a68835cdef02c/w/3ee8bb17d9ad95283a8
 ### Top mounts orientation
 ![Top Mounts](./stl/top%20mounts%20print%20orientation.png)
 
+### Almost final version
+[![Almost final version](https://img.youtube.com/vi/HfqXJp3qA6A/0.jpg)](https://www.youtube.com/watch?v=HfqXJp3qA6A)
+
 ---
 
 Created initial version that works, able to print using current STLs, needs improvement.
@@ -50,3 +53,11 @@ Improved gantry mounts (printed with original COREXZ setup :), made it more soli
 
 Calibration cube video: https://www.youtube.com/watch?v=HerjxtBa1tQ
 [![Calibration cube video](https://img.youtube.com/vi/HerjxtBa1tQ/0.jpg)](https://www.youtube.com/watch?v=HerjxtBa1tQ)
+
+## Thanks
+If you find any of my work useful or fun and want to say thanks in any way, feel free to buy me a beer or a coffee .. it definitely cost me a few of those while working on this project :P
+
+
+[![Buy me a beer or coffee](./content/images/Donate%20QR%20Code.png)](https://www.paypal.com/donate/?business=YDJTXZLTJEKDJ&no_recurring=1&item_name=Buy+me+a+beer+or+coffee%21&currency_code=USD)
+
+https://www.paypal.com/donate/?business=YDJTXZLTJEKDJ&no_recurring=1&item_name=Buy+me+a+beer+or+coffee%21&currency_code=USD
