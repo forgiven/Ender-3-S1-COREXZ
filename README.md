@@ -14,6 +14,10 @@ The parts should be printed in PETG or something equally or more stable (see: ht
     - See print orientation / supports used below
 
 
+## List of materials
+You can have a look in the `BOM.xlsx`
+
+
 ### All designed by me using cad.onshape.com
 https://cad.onshape.com/documents/2d724dcc4f7a68835cdef02c/w/3ee8bb17d9ad95283a8c1cf1/e/ca4d997c7e1208501c988271
 
