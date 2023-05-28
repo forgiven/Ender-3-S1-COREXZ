@@ -28,6 +28,8 @@ Not a very high bar was set, but I achieved it and seems to have higher X-axis a
 
 ## Print orientation / settings
 
+STL's can be found in the `stl` folder or on [Printables](https://www.printables.com/model/492543-ender-3-s1-corexz-v21)
+
 Filament:
 - Printed all the parts in eSUN PLA+ (EXCEPT the stepper flanges)
 - Stepper motor flanges were printed in PETG (to withstand stepper motor heat)
