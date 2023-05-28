@@ -2,7 +2,7 @@
 
 ## Version 2.1
 
-After some contemplating, I have decided to create a version 2 of the Ender 3 S1 corexz kinematics. It has a compact footprint, shorter belt path and more rigid design, albiet more sophisticated.
+After some contemplating, I have decided to create a version 2 of the Ender 3 S1 corexz kinematics. It has a compact footprint, shorter belt path and more rigid design, albeit more sophisticated.
 
 The two main motivations for version 2 were:
 - Print quality focused
