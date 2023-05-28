@@ -1,62 +1,77 @@
 # Ender 3 S1 COREXZ
 
-## Version 1.0
+## Version 2.1
 
-### Updated STLs to version 1.0
+After some contemplating, I have decided to create a version 2 of the Ender 3 S1 corexz kinematics. It has a compact footprint, shorter belt path and more rigid design, albiet more sophisticated.
 
-The parts should be printed in PETG or something equally or more stable (see: https://www.simplify3d.com/support/materials-guide/properties-table/)
+The two main motivations for version 2 were:
+- Print quality focused
+- Compact design
+- Challenge CAD capabilities xd
 
-- PETG (I used SUNLU black)
-- Layer height: 0.25 first layer, 0.25 all layers
-- 4 external perimeters, 0.8mm wall thickness
-- 50% grid infill
-- Supports (support enforcers only), snug supports (SuperSlicer)
-    - See print orientation / supports used below
+Not a very high bar was set, but I achieved it and seems to have higher X-axis acceleration than previous versions (now ~13 000 compared to ~8000 before)
 
-
-## List of materials
-You can have a look in the `BOM.xlsx`
-
-
-### All designed by me using cad.onshape.com
-https://cad.onshape.com/documents/2d724dcc4f7a68835cdef02c/w/3ee8bb17d9ad95283a8c1cf1/e/ca4d997c7e1208501c988271
-
-### Stepper mounts orientation
-![Stepper Mounts](./stl/stepper%20mount%20print%20orientation.png)
-
-### Gantry mounts orientation
-![Gantry Mounts](./stl/gantry%20mount%20print%20orientation.png)
-
-### Top mounts orientation
-![Top Mounts](./stl/top%20mounts%20print%20orientation.png)
-
-### Almost final version
-[![Almost final version](https://img.youtube.com/vi/HfqXJp3qA6A/0.jpg)](https://www.youtube.com/watch?v=HfqXJp3qA6A)
+![Cad images](./content/images/printer_cad1.jpg)
+![Cad images](./content/images/printer_cad2.jpg)
+![Cad images](./content/images/printer_cad3.jpg)
+![Cad images](./content/images/printer_cad4.jpg)
+![Cad images](./content/images/printer_cad5.jpg)
 
 ---
 
-Created initial version that works, able to print using current STLs, needs improvement.
+## ***** NOTE *****
+## - This is not an easy / user friendly build, you have to remove the heated bed to mount the stepper mounts!
+## - Also you have to rotate the top 2020 frame aluminium extrusion so the v-slot faces the front.
 
-Klipper still uses the input-shaping / pressure advance from the original lead screw z-axis setup. I will measure resonances and update the pressure advance once I have more solid corexz mounts.
+## ******************
+---
 
-### First print: https://youtube.com/shorts/suzz1N5mtw4
+## Print orientation / settings
 
-[![First print](https://img.youtube.com/vi/suzz1N5mtw4/0.jpg)](https://www.youtube.com/watch?v=suzz1N5mtw4)
+Filament:
+- Printed all the parts in eSUN PLA+ (EXCEPT the stepper flanges)
+- Stepper motor flanges were printed in PETG (to withstand stepper motor heat)
 
-Second print: https://youtube.com/shorts/CWDbjbXojE4
+### Slicer settigns
+- 0.4mm nozzle
+- 0.2mm first layer height
+- 0.24mm layer height for the rest
+- 3 walls, 4 top, 3 bottom
+- 0.42mm line width (default, internal solid infill, supports)
+- 0.45mm line width (first layer, inner wall, outer wall, top surface, sparse infill)
+- 20% grid infill for PLA parts, 20% gyroid infill for PETG
+- Supports only needed for right gantry cover
+    - normal snug supports
+    - only on build plate
 
-[![First print](https://img.youtube.com/vi/CWDbjbXojE4/0.jpg)](https://www.youtube.com/watch?v=CWDbjbXojE4)
 
-Improved gantry mounts (printed with original COREXZ setup :), made it more solid and printed in PETG.
-- 0.2mm layer height
-- external perimeter speed 125mm/s
-- other 200mm/s
+![Print orientation top](./content/images/print_orientation_top.jpg)
+
+![Print orientation bottom](./content/images/print_orientation_bottom.jpg)
 
 
-[![Calibration cube](content/images/calibration_cube_20x20_0.2_13m29s.png)]()
+# Some prints using V2.1 Corexz
 
-Calibration cube video: https://www.youtube.com/watch?v=HerjxtBa1tQ
-[![Calibration cube video](https://img.youtube.com/vi/HerjxtBa1tQ/0.jpg)](https://www.youtube.com/watch?v=HerjxtBa1tQ)
+See it in action on my [youtube channel](https://www.youtube.com/@f0rgiv3n)
+
+### Cali dragon
+- 0.2 layer height
+- 4k accelerations (limited by bed slinging Y-axis)
+- 200mm/s inner walls
+- 120mm/s outer walls
+- square corner velocity 5 external, 9 internal
+
+![Cali dragon](./content/images/cali_fast_print.jpg)
+
+### Z-axis accuracy, target 200mm -> result 200mm
+
+![Z-axis accuracy](./content/images/height_accuracy.jpg)
+
+### Uniform Z-layers
+![Z-axis accuracy](./content/images/z_layers.jpg)
+
+---
+
 
 ## Thanks
 If you find any of my work useful or fun and want to say thanks in any way, feel free to buy me a beer or a coffee .. it definitely cost me a few of those while working on this project :P
