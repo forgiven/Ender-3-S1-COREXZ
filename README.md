@@ -1,6 +1,15 @@
 # Ender 3 S1 COREXZ
 
 ## Version 2.1
+---
+
+## ***** IMPORTANT NOTE *****
+### - This is `NOT` an easy / user friendly build. You have to remove the heated bed to fit the stepper mounts!
+### - Also you have to rotate the top 2020 frame aluminium extrusion so the v-slot faces the front.
+### - You would have to configure Klipper or Marlin to work using `corexz` kinematics
+
+## ******************
+---
 
 After some contemplating, I have decided to create a version 2 of the Ender 3 S1 corexz kinematics. It has a compact footprint, shorter belt path and more rigid design, albeit more sophisticated.
 
@@ -17,13 +26,6 @@ Not a very high bar was set, but I achieved it and seems to have higher X-axis a
 ![Cad images](./content/images/printer_cad4.jpg)
 ![Cad images](./content/images/printer_cad5.jpg)
 
----
-
-## ***** NOTE *****
-## - This is not an easy / user friendly build, you have to remove the heated bed to mount the stepper mounts!
-## - Also you have to rotate the top 2020 frame aluminium extrusion so the v-slot faces the front.
-
-## ******************
 ---
 
 ## Print orientation / settings
